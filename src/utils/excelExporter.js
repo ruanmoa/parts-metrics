@@ -1,6 +1,12 @@
 import xlsx from 'xlsx';
-import { exportPrices } from './extractPrices.js';
 
+/**
+ * Exports data to an Excel file.
+ *
+ * @param {Array<Object>} data - The data to be exported to Excel.
+ * @param {string} filePath - The file path where the Excel file will be saved.
+ * @throws Will throw an error if there is an issue creating the Excel file.
+ */
 export function exportToExcel(data, filePath) {
   try {
 
@@ -10,9 +16,9 @@ export function exportToExcel(data, filePath) {
 
     xlsx.writeFile(workbook, filePath);
 
-    console.log(`Arquivo Excel criado em: ${filePath}`);
+    console.log(`Excel file created at: ${filePath}`);
   } catch (error) {
-    console.error('Erro ao criar o arquivo Excel:', error);
+    console.error('Error creating Excel file:', error);
     throw error;
   }
 }

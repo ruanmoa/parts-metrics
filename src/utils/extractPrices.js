@@ -1,5 +1,8 @@
-export function exportPrices(totalQtt, product) {
+export function extractPrices(totalQuantity, product) {
   try {
+    if (!Array.isArray(product) || product.length === 0) {
+      throw new Error('Product is not a non-empty array');
+    }
 
     let priceFound = null;
     let found = false;
@@ -9,14 +12,14 @@ export function exportPrices(totalQtt, product) {
         for(const pricing of variation.StandardPricing) {
           priceFound = pricing;
           console.log(`RUNNING: ${pricing.BreakQuantity}`);
-          if (pricing.BreakQuantity >= totalQtt) {
+          if (pricing.BreakQuantity >= totalQuantity) {
             found = true;
             break;
           }
         }
       }
     }
-    console.log(`FOUND: ${priceFound.BreakQuantity} <--> TOTAL NEEDED: ${totalQtt}`);
+    console.log(`FOUND: ${priceFound.BreakQuantity} <--> TOTAL NEEDED: ${totalQuantity}`);
 
     const result = {
       partNumber: product[0].ManufacturerProductNumber,
@@ -27,9 +30,9 @@ export function exportPrices(totalQtt, product) {
       qttAvailable: product[0].QuantityAvailable,
       qttToPurchase: priceFound.BreakQuantity,
       unitPrice: priceFound.UnitPrice,
-      totalCost: (priceFound.BreakQuantity > totalQtt ) ? priceFound.TotalPrice : totalQtt * priceFound.UnitPrice,
-      qttRequired: totalQtt,
-      productCost: totalQtt * priceFound.UnitPrice
+      totalCost: (priceFound.BreakQuantity > totalQuantity ) ? priceFound.TotalPrice : totalQuantity * priceFound.UnitPrice,
+      qttRequired: totalQuantity,
+      productCost: totalQuantity * priceFound.UnitPrice
     }
 
     return result;
