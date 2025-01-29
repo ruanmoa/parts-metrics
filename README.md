@@ -1,4 +1,4 @@
-# Part Track - DigiKey Service API
+# Parts Metrics - DigiKey Service API
 
 A Node.js-based service for processing electronic components using the DigiKey API. 
 This project reads component data from an Excel file, performs API queries to retrieve detailed information, and generates a new Excel file with the results.
