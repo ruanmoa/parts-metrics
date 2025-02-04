@@ -1,0 +1,180 @@
+{
+    "ProductPricings": [
+        {
+            "ManufacturerProductNumber": "GRM21BR61E106KA73L",
+            "Manufacturer": {
+                "Id": 490,
+                "Name": "Murata Electronics"
+            },
+            "Description": {
+                "ProductDescription": "CAP CER 10UF 25V X5R 0805",
+                "DetailedDescription": "10 µF ±10% 25V Ceramic Capacitor X5R 0805 (2012 Metric)"
+            },
+            "QuantityAvailable": 1640847,
+            "ProductUrl": "https://www.digikey.com/en/products/detail/murata-electronics/GRM21BR61E106KA73L/2334874",
+            "IsDiscontinued": false,
+            "NormallyStocking": true,
+            "IsObsolete": false,
+            "ManufacturerLeadWeeks": "10",
+            "ManufacturerPublicQuantity": 0,
+            "StandardPackage": 3000,
+            "ExportControlClassNumber": "EAR99",
+            "HtsusCode": "8532.24.0020",
+            "MoistureSensitivityLevel": "1  (Unlimited)",
+            "IsBoNotAllowed": false,
+            "IsNcnr": false,
+            "Categories": [
+                {
+                    "CategoryId": 3,
+                    "Level": 0,
+                    "Name": "Capacitors"
+                },
+                {
+                    "CategoryId": 60,
+                    "Level": 1,
+                    "Name": "Ceramic Capacitors"
+                }
+            ],
+            "ContainsLithium": false,
+            "ContainsMercury": false,
+            "IsEndOfLife": false,
+            "ProductVariations": [
+                {
+                    "DigiKeyProductNumber": "490-5523-6-ND",
+                    "QuantityAvailableforPackageType": 1640847,
+                    "PackageType": {
+                        "Id": 243,
+                        "Name": "Digi-Reel®"
+                    },
+                    "MarketPlace": false,
+                    "StandardPricing": [
+                        {
+                            "BreakQuantity": 1,
+                            "UnitPrice": 0.22,
+                            "TotalPrice": 0.22
+                        },
+                        {
+                            "BreakQuantity": 10,
+                            "UnitPrice": 0.132,
+                            "TotalPrice": 1.320
+                        },
+                        {
+                            "BreakQuantity": 100,
+                            "UnitPrice": 0.0863,
+                            "TotalPrice": 8.6300
+                        },
+                        {
+                            "BreakQuantity": 1000,
+                            "UnitPrice": 0.06128,
+                            "TotalPrice": 61.28000
+                        }
+                    ],
+                    "MyPricing": [],
+                    "IsTariffActive": true,
+                    "DigiReelingFee": 7.0
+                },
+                {
+                    "DigiKeyProductNumber": "490-5523-2-ND",
+                    "QuantityAvailableforPackageType": 1640300,
+                    "PackageType": {
+                        "Id": 1,
+                        "Name": "Tape & Reel (TR)"
+                    },
+                    "MarketPlace": false,
+                    "StandardPricing": [
+                        {
+                            "BreakQuantity": 3000,
+                            "UnitPrice": 0.05346,
+                            "TotalPrice": 160.38000
+                        },
+                        {
+                            "BreakQuantity": 6000,
+                            "UnitPrice": 0.04946,
+                            "TotalPrice": 296.76000
+                        },
+                        {
+                            "BreakQuantity": 9000,
+                            "UnitPrice": 0.0474,
+                            "TotalPrice": 426.6000
+                        },
+                        {
+                            "BreakQuantity": 15000,
+                            "UnitPrice": 0.04506,
+                            "TotalPrice": 675.90000
+                        },
+                        {
+                            "BreakQuantity": 21000,
+                            "UnitPrice": 0.04366,
+                            "TotalPrice": 916.86000
+                        },
+                        {
+                            "BreakQuantity": 30000,
+                            "UnitPrice": 0.04229,
+                            "TotalPrice": 1268.70000
+                        },
+                        {
+                            "BreakQuantity": 75000,
+                            "UnitPrice": 0.03923,
+                            "TotalPrice": 2942.25000
+                        },
+                        {
+                            "BreakQuantity": 150000,
+                            "UnitPrice": 0.0373,
+                            "TotalPrice": 5595.0000
+                        }
+                    ],
+                    "MyPricing": [],
+                    "IsTariffActive": true,
+                    "DigiReelingFee": 0.0
+                },
+                {
+                    "DigiKeyProductNumber": "490-5523-1-ND",
+                    "QuantityAvailableforPackageType": 1640847,
+                    "PackageType": {
+                        "Id": 2,
+                        "Name": "Cut Tape (CT)"
+                    },
+                    "MarketPlace": false,
+                    "StandardPricing": [
+                        {
+                            "BreakQuantity": 1,
+                            "UnitPrice": 0.22,
+                            "TotalPrice": 0.22
+                        },
+                        {
+                            "BreakQuantity": 10,
+                            "UnitPrice": 0.132,
+                            "TotalPrice": 1.320
+                        },
+                        {
+                            "BreakQuantity": 100,
+                            "UnitPrice": 0.0863,
+                            "TotalPrice": 8.6300
+                        },
+                        {
+                            "BreakQuantity": 1000,
+                            "UnitPrice": 0.06128,
+                            "TotalPrice": 61.28000
+                        }
+                    ],
+                    "MyPricing": [],
+                    "IsTariffActive": true,
+                    "DigiReelingFee": 0.0
+                }
+            ]
+        }
+    ],
+    "ProductsCount": 1,
+    "SettingsUsed": {
+        "CustomerId": 0,
+        "SearchLocale": {
+            "Site": "us",
+            "Language": "en",
+            "Currency": "USD"
+        },
+        "Filters": {
+            "IsInStock": false,
+            "ExcludeMarketplace": false
+        }
+    }
+}
