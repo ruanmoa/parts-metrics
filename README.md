@@ -62,7 +62,7 @@ After processing, the server generates a new Excel file with the API query resul
 ## Project Structure
 
   ```bash
-  PartTrack/
+  PartsMetrics/
   ├── data/                  # Directory for input .xlsx files
       └── exampleComponents.xlsx
   ├── src/
