@@ -24,7 +24,8 @@ export async function getComponentDetails(req, res) {
 
     res.json({
       message: 'Consulta realizada com sucesso.',
-      resultFile: outputFilePath,});
+      resultFile: outputFilePath,
+    });
   } catch (error) {
     res.status(500).json({ error: 'Erro ao processar a solicitação.' });
   }
