@@ -12,7 +12,7 @@ body {
   justify-content: center;
   align-items: center;
   min-height: 100vh;
-  padding: 1rem;
+  padding: 4rem 1rem 1rem 1rem;
   background: linear-gradient(135deg, #1f1f1f 0%, #2c2c2c 100%);
 }
 
@@ -65,4 +65,26 @@ button:hover {
   max-width: 700px;
   margin-bottom: 1rem;
   line-height: 1.6;
+}
+
+.header {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+  background: #1e1e1e;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+.logo {
+  font-weight: 600;
+  font-size: 1.25rem;
+  color: #f0f0f0;
+}
+
+.login-button {
+  padding: 0.5rem 1rem;
 }
