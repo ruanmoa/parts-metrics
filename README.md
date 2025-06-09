@@ -59,33 +59,31 @@ Use tools like Postman or Insomnia to send a POST request to the `/components` e
 3. Output:
 After processing, the server generates a new Excel file with the API query results in the `/output/` directory`.
 
+4. Launch the Frontend:
+   ```bash
+   cd frontend
+   npm install
+   npm run dev
+   ```
+   Then visit http://localhost:3000 to use the interface.
+
+
 ## Project Structure
+
 
   ```bash
   PartsMetrics/
-  ├── data/                  # Directory for input .xlsx files
-      └── exampleComponents.xlsx
-  ├── src/
-  │   ├── controllers/
-  │   │   └── componentController.js
-  │   ├── routes/
-  │   │   └── componentRoutes.js
-  │   ├── services/
-  │   │   └── digikeyService.js
-  │   ├── utils/
-  │   │   ├── excelExporter.js
-  │   │   ├── extractPrices.js
-  │   │   ├── inputReader.js
-  │   │   └── processData.js
-  │   └── app.js
-  ├── output/               # Directory for generated Excel files
-  ├── upload/               # Directory is used to temporarily store files uploaded to the server before processing.
-  ├── .env                  # Environment variables
-  ├── .gitignore            # Git ignored files
-  ├── package.json          # Project metadata and dependencies
-  └── README.md             # Project documentation
+  ├── backend/              # Node.js API
+  │   ├── data/
+  │   ├── src/
+  │   ├── output/
+  │   └── uploads/
+  ├── frontend/             # Next.js interface
+  │   ├── pages/
+  │   └── styles/
+  ├── .gitignore
+  ├── README.md
   ```
-
 ## Dependencies
 * **express**: Web framework for building the API.
 * **axios**: For making HTTP requests to the DigiKey API.
